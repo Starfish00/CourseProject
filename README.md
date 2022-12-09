@@ -2,11 +2,28 @@
 
 Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
 
+# Contributions
+
+  Anqi & Majharul: Data preprocessing, generating graphs
+  Hang: Train a Bert-based model in Jupyter Notebook
+  Tianhao: Webapp based on simple tfidf and Logistic Regression model, developed in Pandas, Numpy, Sklearn with web framework Dash, Deployed to render.com
+
 # App instructions
+
+
 
 ## Online Webapp
 
 https://cs410-proj.onrender.com/ And just input a sentence to get its sarcastic probability
+
+## Introduction
+
+<ol>
+  <li>Data preprocessing by getting rid of HTML tags, stemming, converting to lower case, stemming, getting rid of stopwords etc.</li>
+  <li>Extract words and bi-grams from sentence</li>
+  <li>Used tfidf to build features for model training</li>
+  <li>Applied a logistic regression to serve the model, for demonstration purposes. Ran into a whole series of problems when deploying the app to the web due to the environment/dependencies/servers not having the most updated package available. Hang using a Bert-related model in the Jupyter Notebook, which is a way more fancier model than the one in the App. </li>
+</ol>
 
 ## Testing on your own computer
 
