@@ -57,7 +57,7 @@ If port 8050 is already in use, it might give you something else
 
 Paste http://127.0.0.1:8050/ or whatever your terminal is giving you to the browser
 
-## Jupter Notebook instruction
+# Jupter Notebook instruction
 
 
 Assume you're already in the CourseProject folder, having done the following
