@@ -8,7 +8,9 @@ The link to the presentation can be found at: https://mediaspace.illinois.edu/me
 
 # Overview
 
-We attepted to leverage machine learning to detect sarcasm in newsheadlines. Some data visualization, model training steps are included in the Jupyter Notebook. We also have an interactive webapp deployed to the cloud to return a sarcasm probability for any sentence so that the next time your friend is trolling you, you know he/she is doing so with our app!
+We attepted to leverage machine learning to detect sarcasm in newsheadlines, inspired by this Kaggle competition: https://www.kaggle.com/datasets/rmisra/news-headlines-dataset-for-sarcasm-detection
+
+Some data visualization, model training steps are included in the Jupyter Notebook. We also have an interactive webapp deployed to the cloud to return a sarcasm probability for any sentence so that the next time your friend is trolling you, you know he/she is doing so with our app!
 
 # Implementations
 
