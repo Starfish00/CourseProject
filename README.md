@@ -2,6 +2,12 @@
 
 Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
 
+# Function
+<ul>
+  <li>Webbapp: The webapp can be used to identify how sarcastic an input sentence is. After opening up the website, there is an input box where the user can input a sentence. The user just simply need to click the 'Submit' button once a sentence is typed and a 'sarcastic probability' will be shown under the button.</li>
+  <li>Jupter Notebook: The Jupter Notebook should be more regarded as a visualization of the development process. It contains some visualization of the dataset and also clues of how a large back-end language model can improve the identification performance of the webapp.</li>
+ </ul>
+
 # Contributions
 <ul>
   <li>Anqi & Majharul: Data preprocessing, generating graphs</li>
