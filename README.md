@@ -57,6 +57,28 @@ If port 8050 is already in use, it might give you something else
 
 Paste http://127.0.0.1:8050/ or whatever your terminal is giving you to the browser
 
+## Jupter Notebook instruction
 
 
+Assume you're already in the CourseProject folder, having done the following
 
+CD into a directory that you want to work on
+
+On terminal
+```
+git clone git@github.com:Starfish00/CourseProject.git
+```
+
+Go to the CourseProject folder
+
+```
+cd CourseProject
+```
+
+Then, if you have Anaconda installed. You can simply do this in terminal
+
+```
+jupyter notebook
+```
+
+Then you will see the notebook on your brower
