@@ -25,6 +25,11 @@ cd CourseProject
 
 If you want to create a virtual environment (I strongly suggest you doing so, since you might be running other students' code as well), follow instructions in https://docs.python.org/3/tutorial/venv.html
 
+If you still see (base) environment active, do
+```
+conda deactivate
+```
+
 Install required packages
 
 ```
