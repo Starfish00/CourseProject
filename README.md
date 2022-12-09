@@ -42,7 +42,7 @@ If some particular package is still missing, do something like
 pip install scikit-learn
 ```
 
-Running the program
+Running the program, you might wait for 2 minutes or so for the data preprocessing and model training to run
 ```
 python app.py
 ```
@@ -52,9 +52,7 @@ If you're on Mac and have Python3, you might want to run
 python3 app.py
 ```
 
-If the last command doesn't work
-
-Then the terminal will likely show something like
+After a few minutes, the terminal will likely show something like
 ```
 Dash is running on http://127.0.0.1:8050/
 ```
