@@ -5,8 +5,8 @@ Please fork this repository and paste the github link of your fork on Microsoft 
 # Contributions
 <ul>
   <li>Anqi & Majharul: Data preprocessing, generating graphs</li>
-  <li>Hang: Train a Bert-based model in Jupyter Notebook</li>
-  <li>Tianhao: Webapp developed in Dash, Deployed to render.com</li>
+  <li>Hang: Train a Bert-based model with Pytorch in Jupyter Notebook</li>
+  <li>Tianhao: Webapp developed in Dash with packages such as scikit-learn, deployed to render.com</li>
  </ul>
 
 
@@ -137,7 +137,7 @@ deactivate
 
 ## Model performance
 
-Both precision, recall and F1 score are above 0.90. For details see Jupyter Notebook.
+Both precision, recall and F1 score are above 0.90 for the deep learning model. For details see Jupyter Notebook.
 
 ## Limitations of work
 
