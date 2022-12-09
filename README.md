@@ -17,6 +17,12 @@ On terminal
 git clone git@github.com:Starfish00/CourseProject.git
 ```
 
+Go to the CourseProject folder
+
+```
+cd CourseProject
+```
+
 If you want to create a virtual environment (I strongly suggest you doing so, since you might be running other students' code as well), follow instructions in https://docs.python.org/3/tutorial/venv.html
 
 Install required packages
