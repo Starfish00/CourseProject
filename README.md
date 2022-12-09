@@ -9,7 +9,39 @@ Please fork this repository and paste the github link of your fork on Microsoft 
   <li>Tianhao: Webapp developed in Dash, Deployed to render.com</li>
  </ul>
 
-# App instructions
+
+# Jupter Notebook instruction
+
+
+Assume you're already in the CourseProject folder, having done the following
+
+CD into a directory that you want to work on
+
+On terminal
+```
+git clone git@github.com:Starfish00/CourseProject.git
+```
+
+Go to the CourseProject folder
+
+```
+cd CourseProject
+```
+
+Then, if you have Anaconda installed. You can simply do this in terminal
+
+```
+jupyter notebook
+```
+
+Then you will see the notebook on your brower
+
+Finally, if you're on a virtual environment, you may want to deactivate the virtual environment
+```
+deactivate
+```
+
+# Webapp instructions
 
 
 
@@ -100,36 +132,6 @@ Finally, you may want to deactivate the virtual environment
 deactivate
 ```
 
-# Jupter Notebook instruction
-
-
-Assume you're already in the CourseProject folder, having done the following
-
-CD into a directory that you want to work on
-
-On terminal
-```
-git clone git@github.com:Starfish00/CourseProject.git
-```
-
-Go to the CourseProject folder
-
-```
-cd CourseProject
-```
-
-Then, if you have Anaconda installed. You can simply do this in terminal
-
-```
-jupyter notebook
-```
-
-Then you will see the notebook on your brower
-
-Finally, you may want to deactivate the virtual environment
-```
-deactivate
-```
 
 # Discussion
 
