@@ -2,11 +2,28 @@
 
 Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
 
-# Function
-<ul>
-  <li>Webbapp: The webapp can be used to identify how sarcastic an input sentence is. After opening up the website, there is an input box where the user can input a sentence. The user just simply need to click the 'Submit' button once a sentence is typed and a 'sarcastic probability' will be shown under the button.</li>
-  <li>Jupter Notebook: The Jupter Notebook should be more regarded as a visualization of the development process. It contains some visualization of the dataset and also clues of how a large back-end language model can improve the identification performance of the webapp.</li>
- </ul>
+# Overview
+
+We attepted to leverage machine learning to detect sarcasm in newsheadlines. Some data visualization, model training steps are included in the Jupyter Notebook. We also have an interactive webapp deployed to the cloud to return a sarcasm probability for any sentence so that the next time your friend is trolling you, you know he/she is doing so with our app!
+
+# Implementations
+
+## Jupyter notebook part
+
+<ol>
+  <li>Data preprocessing by getting rid of HTML tags, stemming, converting to lower case, stemming, getting rid of stopwords etc.</li>
+  <li>Data visualization with seaborn/matplotlib etc.</li>
+  <li>Applied a Bert-like model with Pytorch</li>
+  <li>More details in the Jupyter Notebook</li>
+</ol>
+
+## Webapp
+<ol>
+  <li>Data preprocessing by getting rid of HTML tags, stemming, converting to lower case, stemming, getting rid of stopwords etc.</li>
+  <li>Extract words and bi-grams from sentence</li>
+  <li>Used tfidf to build features for model training</li>
+  <li>Applied a logistic regression to serve the model, for demonstration purposes. Ran into a whole series of problems when deploying the app to the web due to the environment/dependencies/servers not having the most updated package available. Hang using a Bert-related model in the Jupyter Notebook, which is a way more fancier model than the one in the App. </li>
+</ol>
 
 # Contributions
 <ul>
@@ -57,14 +74,6 @@ https://cs410-proj.onrender.com/
 
 The usage is extremely straightforward, put in a sentence and it will return a probability such that it is sarcastic.
 
-## Introduction
-
-<ol>
-  <li>Data preprocessing by getting rid of HTML tags, stemming, converting to lower case, stemming, getting rid of stopwords etc.</li>
-  <li>Extract words and bi-grams from sentence</li>
-  <li>Used tfidf to build features for model training</li>
-  <li>Applied a logistic regression to serve the model, for demonstration purposes. Ran into a whole series of problems when deploying the app to the web due to the environment/dependencies/servers not having the most updated package available. Hang using a Bert-related model in the Jupyter Notebook, which is a way more fancier model than the one in the App. </li>
-</ol>
 
 ## Testing on your own computer
 
