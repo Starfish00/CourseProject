@@ -4,7 +4,7 @@ Please fork this repository and paste the github link of your fork on Microsoft 
 
 # Presentation
 
-The link to the presentation can be found at: https://uofi.box.com/s/6v89lfvb2eu9efd7ahb831yxk3msa38r
+The link to the presentation can be found at: https://mediaspace.illinois.edu/media/t/1_mdnfiv5j and https://uofi.box.com/s/6v89lfvb2eu9efd7ahb831yxk3msa38r (fallback).
 
 # Overview
 
