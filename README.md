@@ -2,6 +2,10 @@
 
 Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
 
+# Presentation
+
+The link to the presentation can be found at: https://uofi.box.com/s/6v89lfvb2eu9efd7ahb831yxk3msa38r
+
 # Overview
 
 We attepted to leverage machine learning to detect sarcasm in newsheadlines. Some data visualization, model training steps are included in the Jupyter Notebook. We also have an interactive webapp deployed to the cloud to return a sarcasm probability for any sentence so that the next time your friend is trolling you, you know he/she is doing so with our app!
