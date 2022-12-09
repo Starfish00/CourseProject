@@ -15,7 +15,9 @@ Please fork this repository and paste the github link of your fork on Microsoft 
 
 ## Online Webapp
 
-https://cs410-proj.onrender.com/ And just input a sentence to get its sarcastic probability
+https://cs410-proj.onrender.com/ 
+
+The usage is extremely straightforward, put in a sentence and it will return a probability such that it is sarcastic.
 
 ## Introduction
 
@@ -128,3 +130,11 @@ Finally, you may want to deactivate the virtual environment
 ```
 deactivate
 ```
+
+# Discussion
+
+## Model performance
+
+## Limitations of work
+
+We just trained on the title itself, did not utilize the article link. Sometimes whether a title is sarcastic or not will be based on context (such as the article content). This could be a future work item. With that being said, we're satisfied with our current model performance.
