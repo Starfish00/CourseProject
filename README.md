@@ -58,9 +58,9 @@ Then the terminal will likely show something like
 ```
 Dash is running on http://127.0.0.1:8050/
 ```
-If port 8050 is already in use, it might give you something else
+If port 8050 is already in use (if you're openning another students' app etc.), it might not let you start the program.
 
-Paste http://127.0.0.1:8050/ or whatever your terminal is giving you to the browser
+Paste http://127.0.0.1:8050/ to the browser
 
 # Jupter Notebook instruction
 
