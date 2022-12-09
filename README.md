@@ -93,6 +93,11 @@ If port 8050 is already in use (if you're openning another students' app etc.), 
 
 Paste http://127.0.0.1:8050/ to the browser
 
+Finally, you may want to deactivate the virtual environment
+```
+deactivate
+```
+
 # Jupter Notebook instruction
 
 
