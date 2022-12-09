@@ -6,7 +6,7 @@ Please fork this repository and paste the github link of your fork on Microsoft 
 <ul>
   <li>Anqi & Majharul: Data preprocessing, generating graphs</li>
   <li>Hang: Train a Bert-based model in Jupyter Notebook</li>
-  <li>Tianhao: Webapp based on simple tfidf and Logistic Regression model, developed in Pandas, Numpy, Sklearn with web framework Dash, Deployed to render.com</li>
+  <li>Tianhao: Webapp developed in Dash, Deployed to render.com</li>
  </ul>
 
 # App instructions
