@@ -25,6 +25,21 @@ cd CourseProject
 
 If you want to create a virtual environment (I strongly suggest you doing so, since you might be running other students' code as well), follow instructions in https://docs.python.org/3/tutorial/venv.html
 
+You can do something like this to create the virtual environment
+```
+python3 -m venv cs410math-env
+```
+
+Do this to activate the environment if you're on Windows
+```
+cs410math-env\Scripts\activate.bat
+```
+
+Do this to activate if you're on Mac
+```
+source cs410math-env/bin/activate
+```
+
 If you still see (base) environment active, do
 ```
 conda deactivate
@@ -85,3 +100,8 @@ jupyter notebook
 ```
 
 Then you will see the notebook on your brower
+
+Finally, you may want to deactivate the virtual environment
+```
+deactivate
+```
